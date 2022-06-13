@@ -12,5 +12,13 @@
     - option 2
 - Install ADDS
     - Install-windowsfeature -name AD-Domain-Services -IncludeManagementTools
+- Setup domain
+    - Install-ADDSForest
+    - Follow prompts
+
+'''Script
+Install-ADDSForest
+'''
+
 
 
