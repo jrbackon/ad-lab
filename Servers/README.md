@@ -16,9 +16,6 @@
     - Install-ADDSForest
     - Follow prompts
 
-'''Script
-Install-ADDSForest
-'''
 
 
 
