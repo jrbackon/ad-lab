@@ -1,0 +1,27 @@
+{
+    "groups" : [
+        {
+            "name": "Security"
+        }
+
+    ],
+
+    "users" : [
+
+        {
+            "first_name": "Jacob",
+            "last_name": "Backon",
+            "password": "literallyanything",
+            "username": "jbackon",
+            "groups": [
+                "Security"
+            ]
+
+        }
+    ]
+
+
+
+
+
+}
