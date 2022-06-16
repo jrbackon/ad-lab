@@ -14,3 +14,8 @@
     - personal token. Expires on July 12.
     - https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
+# MGMT Workstation
+- Dev environment setup
+    - VSCode installed
+    - Git installed
+    - Repo cloned to local machine
