@@ -4,17 +4,21 @@
 - Shutdown and took snapshots
 
 - Attempted New-PSSession from MGMT workstation. 
-```
-New-PSSession -ComputerName 172.16.185.10 -Credential (Get-Credential)
-```
+
+    ```
+    New-PSSession -ComputerName 172.16.185.10 -Credential (Get-Credential)
+    ```
+
     - Need to research winrm trusted hosts to get this to work.
     - Tried this command on DC1.
+    
     ```
     Enable-PSRemoting
     ```
 
 - Creating ad.schema.json
 - Convert .json to powershell objects
+
 ```
 Get-Content .\ad.shema.json | ConvertFrom-Json
 ```
