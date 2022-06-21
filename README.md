@@ -25,6 +25,8 @@ Set-ExecutionPolicy RemoteSigned
 - Created script to generate AD users and groups from a .json configuration file.
     - Note: If restoring DC from snapshot, workstations must be removed and readded to the domain.
 
+- Created script to generate a .json file with a quasi-random set of users and groups. This can beused to generate a quasi-random AD environment with the gen_ad.ps1 script.
+
 # GIT Setup Notes
 - Git add
 - Git commit
