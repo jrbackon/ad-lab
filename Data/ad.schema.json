@@ -1,0 +1,37 @@
+{
+
+    "domain": "reezun.home",
+
+    "groups" : [
+        {
+            "name": "Employees"
+        }
+
+    ],
+
+    "users" : [
+
+        {
+            "name": "Alice Lice",
+            "password": "Inwonderland11!",
+            "groups": [
+                "Employees"
+            ]
+
+        },
+
+        {
+            "name": "Bob Ob",
+            "password": "Thebuilder11!",
+            "groups": [
+                "Employees"
+            ]
+
+        }
+    ]
+
+
+
+
+
+}
